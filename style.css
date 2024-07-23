@@ -1,0 +1,241 @@
+/* navbar */
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: white;
+    height: 70px;
+    position: sticky;
+    top: 0;
+
+}
+
+
+
+#logo {
+    position: absolute;
+    height: 50px;
+    top: 10px;
+    left: 30px;
+
+}
+
+.navbarfeatures {
+    position: end;
+    position: absolute;
+    left: 1000px;
+    top: 15px;
+    padding: 10px;
+
+
+}
+
+.f {
+    color: rgb(7, 7, 7);
+    padding: 10px;
+}
+
+.f:hover {
+    background-color: rgb(206, 206, 240);
+    border-radius: 25px;
+    color: rgb(222, 104, 104);
+}
+
+.searchnav {
+    position: absolute;
+    text-align: center;
+    width: 350px;
+    height: 35px;
+    border: none;
+    left: 130px;
+    border-radius: 25px;
+    top: 20px;
+    background-color: white;
+    border-style: solid;
+
+
+}
+
+.searchnav:hover {
+    background-color: rgb(206, 206, 240);
+    color: rgb(21, 18, 18);
+}
+
+#navb {
+    position: absolute;
+    left: 500px;
+    top: 20px;
+    width: 100px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+#navb:hover {
+    background-color:  rgb(206, 206, 240);
+    color: rgb(222, 104, 104);
+}
+
+
+
+
+
+
+/* home */
+.home {
+    position: relative;
+}
+
+#homestar {
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+
+
+#Stronger {
+    color: rgb(29, 183, 34);
+}
+
+#Stronger:hover {
+    font-size: 100px;
+    transition: smooth;
+}
+
+
+
+
+/* history */
+.history {
+    position: relative;
+}
+
+#imghistory {
+
+
+    width: 100%;
+}
+
+.his {
+    position: absolute;
+    top: 100px;
+    height: 300px;
+    width: 550px;
+    text-align: justify;
+    left: 25px;
+    color: aliceblue;
+    border: 2px;
+    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
+    padding: 25px;
+}
+
+/* Gallery */
+.Gallery {
+    background-color: rgb(255, 255, 255);
+}
+
+.row1 {
+    display: flex;
+
+
+}
+
+.col1 {
+    width: 100%;
+
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.im {
+    height: 400px;
+    width: 100%;
+
+    border-radius: 25px;
+
+}
+
+.col1:hover {
+    background-color: red;
+    border-radius: 30px;
+}
+
+/* form  */
+
+.form {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(157, 15, 15);
+    text-align: center;
+}
+
+.form2 {
+
+    position: absolute;
+    height: 350px;
+    width: 600px;
+    border-style: solid;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    left: 400px;
+    text-align: center;
+}
+
+/* footer  */
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(249, 240, 240);
+    position: relative;
+}
+
+#flogo {
+    position: absolute;
+    height: 150px;
+    top: 25px;
+    left: 25px;
+}
+
+.freach {
+    position: absolute;
+    font-size: 50px;
+    left: 660px;
+}
+
+.socialmedia {
+    display: flex;
+
+}
+
+.col2 {
+    position: relative;
+    left: 580px;
+    top: 80px;
+    margin: 20px;
+    color: rgb(19, 17, 17);
+}
+
+.col2:hover {
+    background-color: rgb(215, 225, 214);
+}
+
+.address {
+    position: relative;
+    left: 1200px;
+    color: rgb(10, 11, 12);
+}
+
+#a {
+    font-size: 30px;
+    color: rgb(13, 13, 13);
+}
